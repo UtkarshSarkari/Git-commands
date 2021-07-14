@@ -1,0 +1,18 @@
+git --version: displays git version.
+git config --global user.name "Your name": commit your name to git.
+git config --gloabl user.email "your email": commit your email to git.
+git config --gloabl user.name: displays your committed name.
+git config --global user.email: displays your committed email.
+code .: open vs-code
+git init: initialize an empty git repository
+ls -lart: displays hidden files with details
+ls -a: displays hidden files without details
+touch filename.extension: creates an empty file in vs-code.
+git add filename.extension: adds file to your git
+git add -A: adds all the files to your git
+git status: check the status of your added files if it's committed or not.
+git commit: to commit your added files
+   After pressing enter, an editor will get open !
+   1. press insert and type your commit message
+   2. press ':' then 'w' and then 'q'
+   3. press enter
