@@ -16,3 +16,17 @@ git commit: to commit your added files
    1. press insert and type your commit message
    2. press ':' then 'w' and then 'q'
    3. press enter
+git commit -m "your commit message": if you dont want to go though the above editor steps.
+git checkout filename.extension: match your file with the last committed data if it is modified by mistake.
+git checkout -f: match all your files to your last commit.
+git log: displays what you have committed yet.
+git log -p -number: if you want to see your last "number" commits 
+   e.g git log -p -3: displays your last three commits.
+git diff: displays what have you modified in your file
+git rm --cached filename.extension: delete file from git staging area but file wil still be available in hard disk.
+git rm filename.extension: delete file from git staging area as well as from hard disk.
+touch .gitignore: code with harry--git and github tutorial--39:00
+git branch branchname: to create a branch
+git checkout branchname: to get into created branch
+git merge branchname: merges your branch content in master content.
+git checkout -b branchname: to create and get into that branch.
